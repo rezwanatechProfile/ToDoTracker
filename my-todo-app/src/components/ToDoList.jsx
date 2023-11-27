@@ -238,7 +238,7 @@ export const ToDoList = () => {
       <Paper elevation={3} style={{ padding: "20px", margin: "20px", maxWidth: "600px", marginLeft: 'auto', marginRight: 'auto' }}>
         <div className="d-flex flex-column align-items-center">
           {tasks.length === 0 ? (
-            <p>Add your Todo list</p>
+            <p>Add Your Todo List</p>
           ) : (
             <div style={{ width: "100%" }}>
               <DataGrid
